@@ -11,6 +11,7 @@ of a module and its functions and/or classes.
 #TODO: define the 'EXPECTED_BAKE_TIME' constant below.
 EXPECTED_BAKE_TIME = 40
 
+
 #TODO: Remove 'pass' and complete the 'bake_time_remaining()' function below.
 def bake_time_remaining(elapsed_bake_time):
     return EXPECTED_BAKE_TIME - elapsed_bake_time
@@ -33,11 +34,18 @@ def bake_time_remaining(elapsed_bake_time):
 # This will make it easier to do calculations.
 def preparation_time_in_minutes (number_of_layers):
     return number_of_layers * 2 
+    """"Calculate the preparation time in minutes
 
+    :param
+    :param
+    :return
+
+    This function
+    """
 
 #TODO: define the 'elapsed_time_in_minutes()' function below.
-def elapsed_time_in_minutes (number_of_layers, elapsed_bake_time) :
-    return number_of_layers + elapsed_bake_time    
+def elapsed_time_in_minutes (number_of_layers, elapsed_bake_time):
+    return number_of_layers * 2 + elapsed_bake_time    
        
     """Calculate the elapsed cooking time.
 
